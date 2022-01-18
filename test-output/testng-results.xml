@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="14" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-17T12:51:18Z" name="hybridSuite" finished-at="2022-01-17T12:55:49Z" duration-ms="271241">
+    <groups>
+    </groups>
+    <test started-at="2022-01-17T12:51:18Z" name="Test" finished-at="2022-01-17T12:55:49Z" duration-ms="271241">
+      <class name="TestOperations.testRunner">
+        <test-method signature="homePageGetTitle()[pri:1, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:51:18Z" name="homePageGetTitle" finished-at="2022-01-17T12:51:29Z" duration-ms="10672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageGetTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:51:29Z" name="teardown" finished-at="2022-01-17T12:51:30Z" duration-ms="922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="homePageElement()[pri:2, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:51:30Z" name="homePageElement" finished-at="2022-01-17T12:51:39Z" duration-ms="9020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageElement -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:51:39Z" name="teardown" finished-at="2022-01-17T12:51:39Z" duration-ms="690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="validAgentDetails()[pri:3, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:51:39Z" name="validAgentDetails" finished-at="2022-01-17T12:51:58Z" duration-ms="18383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validAgentDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:51:58Z" name="teardown" finished-at="2022-01-17T12:51:59Z" duration-ms="730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="validcustomerLoginDetails()[pri:4, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:51:59Z" name="validcustomerLoginDetails" finished-at="2022-01-17T12:52:12Z" duration-ms="13784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validcustomerLoginDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:52:12Z" name="teardown" finished-at="2022-01-17T12:52:13Z" duration-ms="759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="validforgotPasswordDetails()[pri:5, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:52:13Z" name="validforgotPasswordDetails" finished-at="2022-01-17T12:52:27Z" duration-ms="13899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validforgotPasswordDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:52:27Z" name="teardown" finished-at="2022-01-17T12:52:28Z" duration-ms="845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="validonewayBooking()[pri:6, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:52:28Z" name="validonewayBooking" finished-at="2022-01-17T12:52:45Z" duration-ms="17160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validonewayBooking -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:52:45Z" name="teardown" finished-at="2022-01-17T12:52:46Z" duration-ms="1321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="validroundtripBooking()[pri:7, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:52:46Z" name="validroundtripBooking" finished-at="2022-01-17T12:53:06Z" duration-ms="19238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validroundtripBooking -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:53:06Z" name="teardown" finished-at="2022-01-17T12:53:07Z" duration-ms="1561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="validlocalTripBooking()[pri:8, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:53:07Z" name="validlocalTripBooking" finished-at="2022-01-17T12:53:20Z" duration-ms="13258" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at uiRepositories.selectCarPageUI.localBooking(selectCarPageUI.java:243)
+at TestOperations.testRunner.validlocalTripBooking(testRunner.java:110)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocalTripBooking -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:53:21Z" name="teardown" finished-at="2022-01-17T12:53:22Z" duration-ms="1012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="validFromAirportTripBooking()[pri:9, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:53:22Z" name="validFromAirportTripBooking" finished-at="2022-01-17T12:53:47Z" duration-ms="24706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validFromAirportTripBooking -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:53:47Z" name="teardown" finished-at="2022-01-17T12:53:48Z" duration-ms="881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="validToAirportTripBooking()[pri:10, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:53:48Z" name="validToAirportTripBooking" finished-at="2022-01-17T12:54:12Z" duration-ms="24395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validToAirportTripBooking -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:54:12Z" name="teardown" finished-at="2022-01-17T12:54:13Z" duration-ms="1388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="validContactDetails()[pri:11, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:54:13Z" name="validContactDetails" finished-at="2022-01-17T12:54:30Z" duration-ms="16397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validContactDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:54:30Z" name="teardown" finished-at="2022-01-17T12:54:31Z" duration-ms="1053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="validbloggerSocialLinkDetails()[pri:12, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:54:31Z" name="validbloggerSocialLinkDetails" finished-at="2022-01-17T12:55:00Z" duration-ms="28998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validbloggerSocialLinkDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:55:00Z" name="teardown" finished-at="2022-01-17T12:55:01Z" duration-ms="968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="validAboutDetails()[pri:13, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:55:01Z" name="validAboutDetails" finished-at="2022-01-17T12:55:15Z" duration-ms="14044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validAboutDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:55:15Z" name="teardown" finished-at="2022-01-17T12:55:16Z" duration-ms="1248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="validcabTypeDetails()[pri:14, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:55:16Z" name="validcabTypeDetails" finished-at="2022-01-17T12:55:32Z" duration-ms="16252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validcabTypeDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:55:32Z" name="teardown" finished-at="2022-01-17T12:55:33Z" duration-ms="742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="validcarRentalDetails()[pri:15, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:55:33Z" name="validcarRentalDetails" finished-at="2022-01-17T12:55:49Z" duration-ms="15504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validcarRentalDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:55:49Z" name="teardown" finished-at="2022-01-17T12:55:49Z" duration-ms="798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="reportClose()[pri:0, instance:TestOperations.testRunner@3568f9d2]" started-at="2022-01-17T12:55:49Z" name="reportClose" finished-at="2022-01-17T12:55:50Z" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportClose -->
+      </class> <!-- TestOperations.testRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- hybridSuite -->
+</testng-results>

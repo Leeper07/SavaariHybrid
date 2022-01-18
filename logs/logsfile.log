@@ -1,0 +1,30 @@
+[main] DEBUG uiRepositories.homePageUI  - PASS:Navigated to site
+[main] DEBUG uiRepositories.homePageUI  - PASS:Website title matches as expected
+[main] DEBUG uiRepositories.homePageUI  - PASS:Navigated to site
+[main] DEBUG uiRepositories.homePageUI  - PASS:'On-demand Cabs?' element exists
+[main] DEBUG uiRepositories.loginPageUI  - PASS:Navigated to site
+[main] DEBUG uiRepositories.loginPageUI  - PASS:Data validated and appropriate message displayed
+[main] DEBUG uiRepositories.loginPageUI  - PASS:Navigated to site
+[main] DEBUG uiRepositories.loginPageUI  - PASS:Customer Data validated and appropriate message displayed
+[main] DEBUG uiRepositories.loginPageUI  - PASS:Navigated to site
+[main] DEBUG uiRepositories.loginPageUI  - PASS:Customer-forgot password Data validated and appropriate message displayed
+[main] DEBUG uiRepositories.selectCarPageUI  - PASS:Navigated to site
+[main] DEBUG uiRepositories.selectCarPageUI  - PASS:One way price data validated
+[main] DEBUG uiRepositories.selectCarPageUI  - PASS:Navigated to site
+[main] DEBUG uiRepositories.selectCarPageUI  - PASS:Round trip price data validated
+[main] DEBUG uiRepositories.selectCarPageUI  - PASS:Navigated to site
+[main] DEBUG uiRepositories.selectCarPageUI  - FAIL:Local trip data not validated
+[main] DEBUG uiRepositories.selectCarPageUI  - PASS:Navigated to site
+[main] DEBUG uiRepositories.selectCarPageUI  - PASS:Cab from the airport trip price data validated
+[main] DEBUG uiRepositories.selectCarPageUI  - PASS:Navigated to site
+[main] DEBUG uiRepositories.selectCarPageUI  - PASS:Cab to the airport trip price data validated
+[main] DEBUG uiRepositories.footerPageUI  - PASS:Navigated to site
+[main] DEBUG uiRepositories.footerPageUI  - PASS:The contact email of the site exists
+[main] DEBUG uiRepositories.footerPageUI  - PASS:Navigated to site
+[main] DEBUG uiRepositories.footerPageUI  - PASS:The card title displayed matches as expected
+[main] DEBUG uiRepositories.footerPageUI  - PASS:Navigated to site
+[main] DEBUG uiRepositories.footerPageUI  - PASS:CEO name matches as expected
+[main] DEBUG uiRepositories.footerPageUI  - PASS:Navigated to site
+[main] DEBUG uiRepositories.footerPageUI  - PASS:Cab name matches as expected
+[main] DEBUG uiRepositories.footerPageUI  - PASS:Navigated to site
+[main] DEBUG uiRepositories.footerPageUI  - PASS:Number of passengers matches as expected
