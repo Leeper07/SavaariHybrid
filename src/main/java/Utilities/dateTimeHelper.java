@@ -11,7 +11,8 @@ import java.util.TimeZone;
 import org.openqa.selenium.WebElement;
 
 
-public class dateTimeHelper {
+
+public class dateTimeHelper{
 public static String getCurrentDateTime() {
 		
 		DateFormat customFormat=new SimpleDateFormat("MM_dd_yyyy_HH_mm_ss");

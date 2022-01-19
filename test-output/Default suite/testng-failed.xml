@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestOperations.TestCase_008">
+      <class name="TestOperations.testRunner">
         <methods>
-          <include name="validlocalTripBooking"/>
-          <include name="tearDown"/>
-          <include name="intializeReport"/>
+          <include name="reportClose"/>
+          <include name="teardown"/>
+          <include name="validlocalTripBooking" invocation-numbers="0"/>
         </methods>
-      </class> <!-- TestOperations.TestCase_008 -->
+      </class> <!-- TestOperations.testRunner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

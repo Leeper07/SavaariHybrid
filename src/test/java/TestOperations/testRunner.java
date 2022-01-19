@@ -1,6 +1,7 @@
 package TestOperations;
 
 import java.io.IOException;
+import java.lang.reflect.Method;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -94,6 +95,7 @@ public class testRunner extends driverConfig{
 	@Test(priority=7)
 	public void validroundtripBooking() throws InterruptedException, IOException {
 		try {
+			
 		logger=extent.createTest("Select car page-RoundTrip Booking");
 		scpi.siteNavigation(logger);
 		scpi.roundTripBooking();
@@ -103,11 +105,12 @@ public class testRunner extends driverConfig{
 		}
 	}
 	@Test(priority=8)
-	public void validlocalTripBooking() throws InterruptedException, IOException {
+	public void validlocalTripBooking(Method testMethod) throws InterruptedException, IOException {
 		try {
+			String title=testMethod.getName();
 		logger=extent.createTest("Select car page-Local Trip Booking");
 		scpi.siteNavigation(logger);
-		scpi.localBooking();
+		scpi.localBooking(title);
 		logger.pass("SUCCESSFULL");
 		}catch(Exception e) {
 			logger.fail("UNSUCCESSFULL");

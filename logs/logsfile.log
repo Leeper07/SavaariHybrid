@@ -28,3 +28,9 @@
 [main] DEBUG uiRepositories.footerPageUI  - PASS:Cab name matches as expected
 [main] DEBUG uiRepositories.footerPageUI  - PASS:Navigated to site
 [main] DEBUG uiRepositories.footerPageUI  - PASS:Number of passengers matches as expected
+[main] DEBUG uiRepositories.selectCarPageUI  - PASS:Navigated to site
+[main] DEBUG uiRepositories.selectCarPageUI  - FAIL:Local trip data not validated
+[main] DEBUG uiRepositories.selectCarPageUI  - PASS:Navigated to site
+[main] DEBUG uiRepositories.selectCarPageUI  - FAIL:Local trip data not validated
+[main] DEBUG uiRepositories.selectCarPageUI  - PASS:Navigated to site
+[main] DEBUG uiRepositories.selectCarPageUI  - FAIL:Local trip data not validated

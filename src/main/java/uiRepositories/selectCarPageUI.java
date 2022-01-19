@@ -189,7 +189,7 @@ public class selectCarPageUI extends driverConfig{
 		}
 	}
 	
-	public void localBooking() throws InterruptedException {
+	public void localBooking(String title) throws InterruptedException, IOException {
 		try {
 		sco=new selectCarObjects(driver);
 		sco.localOption().click();
@@ -211,7 +211,7 @@ public class selectCarPageUI extends driverConfig{
 		Thread.sleep(2000);
 		String localBookingdate=prop.getProperty("localBookingDate");
 		Actions action=new Actions(driver);
-		action.moveToElement(sco.localmoveElement());
+		action.moveToElement(sco.localmoveElement()).build().perform();
 			dateTimeHelper.clickGivenDay(columns, localBookingdate);
 			Select select = new Select(sco.pickupTime());
 			Thread.sleep(2000);
@@ -239,6 +239,8 @@ public class selectCarPageUI extends driverConfig{
 			}
 		}catch(Exception e) {
 			logger.fail("Local trip data not validated");
+			String ScreenshotPath=getscreenshotpath(title);
+			logger.addScreenCaptureFromPath(ScreenshotPath);
 			log.debug("FAIL:Local trip data not validated");
 			Assert.assertTrue(false);
 		}	
