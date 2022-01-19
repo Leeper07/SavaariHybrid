@@ -10,7 +10,7 @@
         <methods>
           <include name="reportClose"/>
           <include name="teardown"/>
-          <include name="validlocalTripBooking"/>
+          <include name="validlocalTripBooking" invocation-numbers="0"/>
         </methods>
       </class> <!-- TestOperations.testRunner -->
     </classes>
